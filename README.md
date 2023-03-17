@@ -1,7 +1,7 @@
 # DIRE for Diffusion-Generated Image Detection
 <b>Zhendong Wang, <a href='https://jianminbao.github.io/'>Jianmin Bao</a>, <a href='http://staff.ustc.edu.cn/~zhwg/'>Wengang Zhou</a>, Weilun Wang, Hezhen Hu, Hong Chen, <a href='http://staff.ustc.edu.cn/~lihq/en/'>Houqiang Li </a> </b>
 
-[[Paper (Comming Soon)]()] [[Code (Comming Soon)]()] [[Dataset (Comming Soon)]()]
+[[Paper](https://arxiv.org/abs/2303.09295)] [[Code (Comming Soon)]()] [[Dataset (Comming Soon)]()]
 
 
 ## Abstract
