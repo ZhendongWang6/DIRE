@@ -1,9 +1,10 @@
 # DIRE for Diffusion-Generated Image Detection (ICCV 2023)
 <b> <a href='https://zhendongwang6.github.io/'>Zhendong Wang</a>, <a href='https://jianminbao.github.io/'>Jianmin Bao</a>, <a href='http://staff.ustc.edu.cn/~zhwg/'>Wengang Zhou</a>, Weilun Wang, Hezhen Hu, Hong Chen, <a href='http://staff.ustc.edu.cn/~lihq/en/'>Houqiang Li </a> </b>
 
-[[paper](https://arxiv.org/abs/2303.09295)] [[DiffusionForensics dataset](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR)] [[pre-trained model](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR)]
+[[paper](https://arxiv.org/abs/2303.09295)] [[DiffusionForensics dataset]([BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] [[pre-trained model]([BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)]
 
 ## News
+- [2024/09/26] :fire: Fix up the link of our data, model. We provide them in [[BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] and [[RecDrive (password: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)].
 - [2023/08/27] :fire: Release code, dataset and pre-trained models. [[OneDrive](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR)]/[[RecDrive (code: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)]
 
 - [2023/07/14] :tada: DIRE is accepted by ICCV 2023.
@@ -28,7 +29,7 @@ pip install torch==2.0.0+cu117 torchvision==0.15.1+cu117 -f https://download.pyt
 pip install -r requirements.txt
 ```
 ## DiffusionForensics Dataset
-The DiffusionForensics dataset can be downloaded from [here](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR). The dataset is organized as follows:
+The DiffusionForensics dataset can be downloaded from [[BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] or [[RecDrive (password: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)]. The dataset is organized as follows:
 ```
 images/recons/dire
 └── train/val/test
@@ -58,7 +59,7 @@ Before training, you should link the training real and DIRE images to the `data/
 sh train.sh
 ```
 ## Evaluation
-We provide the pre-trained DIRE model in [here](https://mailustceducn-my.sharepoint.com/:f:/g/personal/zhendongwang_mail_ustc_edu_cn/EtKXrn4cjWtBi0H3v4j1ICsBKraCxnZiTWU4VzqRr0ilCw?e=trkgDR).
+We provide the pre-trained DIRE model in [[BaiduDrive (password: dire)](https://pan.baidu.com/s/1Rdzc7l8P0RrJft0cW0a4Gg)] and [[RecDrive (password: dire)](https://rec.ustc.edu.cn/share/ec980150-4615-11ee-be0a-eb822f25e070)].
 You can evaluate the DIRE model by running the following command:
 ```
 sh test.sh
